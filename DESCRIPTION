@@ -1,0 +1,20 @@
+Package: Lab2Pkg
+Type: Package
+Title: Inpatient Prospective Payment Analyzer
+Version: 0.1.0
+Author: Ceyda Durmaz
+Maintainer: Ceyda Durmaz <cdurmaz569@gmail.com>
+Description: This package analyzes data from the Centers for Medicare & 
+    Medicaid Services. The data include hospital-specific charges for more than 
+    3,000 U.S. hospitals that receive Medicare Inpatient Prospective Payment 
+    System (IPPS) payments for Fiscal Year (FY) 2011. 
+    This package has two functions: plot_payments and get_medicare_stats. The
+    plot_payments function outputs a boxplot of average payments for a 
+    specified payment type for each DRG. The get_medicare_stats function outputs
+    a calculated statistic (mean, median, or sd) over all DRG codes for average
+    Medicare payments. 
+    Can load data by 'load(drg)'
+License: None
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
